@@ -1,0 +1,39 @@
+.calculator {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 20px;
+    font-size: 36px;
+    text-align: right;
+    box-sizing: border-box;
+    border: none;
+    background-color: #eee;
+    margin-bottom: 20px;
+  }
+  
+  .keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  button {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin: 10px;
+    padding: 0;
+    float: left;
+    box-sizing: border-box;
+  }
+  
+  button:hover {
+    background-color: #eee;
+  }
+  
